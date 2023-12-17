@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100vw;
+  background-color: #171a21;
+  height: 100px;
+}
+.container {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+}
+img {
+  padding: 10px;
+  height: 80%;
+  float: left;
+}
+ul {
+  list-style: none;
+  display: inline-block;
+  margin: 32px 100px;
+}
+li {
+  display: inline-block;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+a:hover {
+    text-decoration: underline solid white 2px;
+    font-weight: 600;
+}
+
+.sublist{
+  display: none;
+  margin: 0rem 0 0;
+  border: 1px solid white;
+}
+.list li:hover{
+  border: 1px solid white;
+}
+
+.list li:hover .sublist{
+  display: inline-block;
+  position: absolute;
+  background-color: #171a21;
+}
+
+.sublist li{
+  display: block;
+}
+.main{
+min-height: 100vh;
+width: 100vw;
+background-color: #252c3b;
+}
+.content{
+width: 1024px;
+height: 100%;
+margin: 0 auto;
+}
+
+.element {
+  padding: 30px;
+  height: 150px;
+  border: 3px solid rgb(255, 255, 255) ;
+  background-color: rgba(31, 16, 172, 0.822);
+  margin: 0 0 15px 0;
+  transition: 1s;
+}
+.annot{
+  color: azure;
+  margin-top: 15px;
+}
+.element img{
+  height: 100%;
+  height: 150px;
+  
+}
+.name{
+  color: aliceblue;
+  font-size:32px;
+}
+.game{
+  padding: 10px;
+}
+.element:hover{
+  background-color: cornflowerblue;
+  transition: 1s;
+}
